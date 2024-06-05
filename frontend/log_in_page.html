@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>log_in_page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="log_in_page.css" />
+		<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+		<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			 // Get the "Log in" button element
+			 var loginButton = document.getElementById("___img__bl_back");
+ 
+			 // Add a click event listener to the button
+			 loginButton.addEventListener("click", function() {
+				 // Navigate to the login page
+				 window.location.href = "landing.html";
+		 });
+		     var signupButton = document.getElementById("sign_up");
+             signupButton.addEventListener("click",function(){
+                 window.location.href = "sign_up_page.html";
+    });
+		});
+		</script>
+
+	</head>
+	<body>
+
+		<div id="content-container" >
+			<div id="_bg__log_in_page"  ></div>
+			<img src="skins/rectangle_16.png" id="rectangle_16" />
+			<img src="skins/rectangle_17.png" id="rectangle_17" />
+			<div id="title_box"  ></div>
+			<img src="skins/___img__bl_logo.png" id="___img__bl_logo" />
+			<div id="form-box" class="form-box">
+				<div class="input-mail">
+					<input type="email" id="email_inp" placeholder="enter your e-mail">
+				</div>
+				<div class="input-pass">
+					<input type="password" id="pass_inp" placeholder="enter your password">
+				</div>
+			</div>>
+			<div id="e_mail_" >
+				E-mail:
+			</div>
+			<div id= "password_" >
+				Password:
+			</div>
+
+			<div id="new_here_" >
+				New here?
+			</div>
+			<div id="sign_up" >
+				Sign up
+			</div>
+			<div id="___img__login_btn"  >
+				<img src="skins/rectangle_18_ek1.png" id="rectangle_18" />
+				<div id="log_in" onclick="login()" >
+					Log in
+				</div>
+
+			</div>
+			<img src="skins/___img__bl_back.png" id="___img__bl_back" />
+		</div>
+		<script src="log_in_page.js"></script>
+
+	</body>
+</html>

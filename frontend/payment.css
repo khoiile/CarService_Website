@@ -1,0 +1,234 @@
+/*
+	@name payment
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1080px; width: 1080px; height: 1828px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__payment {
+	top: 0px;
+	left: 0px;
+	width: 1080px;
+	height: 1828px;
+	background:rgba(255,255,255,1);
+}
+
+
+#image_28 {
+	top: 569px;
+	left: 173px;
+	width: 735px;
+	height: 780px;
+}
+
+
+#___img__bl_logo {
+	top: 0px;
+	left: 589px;
+	width: 491px;
+	height: 216px;
+}
+
+
+#___img__bl_back {
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 174.7px;
+}
+
+
+#we_almost_there__ {
+	top: 322px;
+	left: 367px;
+	width: 357px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#we_almost_there__:before {
+
+	content: "We almost there !";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FF8C00;
+}
+
+
+#due_to_our_policy_please_transfer_all_fees {
+	top: 418px;
+	left: 319px;
+	width: 453px;
+	height: 138px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0, 0, 0, 0);
+	opacity: 1;
+}
+#due_to_our_policy_please_transfer_all_fees:before {
+
+	content: "Due to our policy Please transfer all fees";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #ff0000;
+}
+
+
+#total_amount_ {
+	top: 1349px;
+	left: 370px;
+	width: 352px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#total_amount_:before {
+
+	content: "TOTAL AMOUNT:";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#description__please_fill_in_your_billing_id {
+	top: 1525px;
+	left: 279px;
+	width: 1000px;
+	height: 500px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	opacity: 1;
+}
+#description__please_fill_in_your_billing_id:before {
+
+	content: "DESCRIPTION:";
+	position: absolute;
+	top: 0px;
+	left: 126px;
+	color: #000000;
+}
+#description__please_fill_in_your_billing_id::after {
+
+	content: "please fill-in your billing ID";
+	position: absolute;
+	top: 45px;
+	left: 10px;
+	color: #ff0000;
+}
+
+#vnd {
+	top: 1445px;
+	left: 100px;
+	width: 800px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	opacity: 1;
+}
+
+
+#payment {
+	top: 216px;
+	left: 359px;
+	width: 448px;
+	height: 162px;
+	overflow: hidden;
+	font-family: Exo;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#payment:before {
+
+	content: "PAYMENT";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+#___img__signup_box {
+	top: 1685px;
+	left: 409px;
+	width: 261.29px;
+	height: 90px;
+}
+#group_3 {
+	top: 0px;
+	left: 0px;
+	width: 261.29px;
+	height: 90px;
+}
+#group_25 {
+	top: 0px;
+	left: 0px;
+	width: 261.29px;
+	height: 90px;
+}
+
+#rectangle_18 {
+	top: 0px;
+	left: 0px;
+	width: 261.29px;
+	height: 90px;
+}
+
+
+#done {
+	top: 16px;
+	left: 71px;
+	width: 130px;
+	height: 86px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#done:before {
+
+	content: "Done";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+
+/* Add your custom CSS here */

@@ -1,0 +1,245 @@
+/*
+	@name log_in_page
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1920px; height: 1080px; margin-left: auto; margin-right: auto;  }
+
+#form-box{
+	position: absolute;
+	top: 425px;
+	left: 570px;
+	width: 1000px;
+	height: 1000px;
+	background: rgba(0,0,0,0);
+	padding:  50px 0;
+	color: #000000;
+	border: none;
+    outline: none;
+}
+
+.input-mail {
+    margin-top: 0px;
+    width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.input-mail input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000000; /* Change to #fff if background is dark */
+    padding: 10px 0;
+    font-size: 50px;
+	opacity: 0.65;
+}
+
+.input-pass {
+    margin: 165px auto;
+    width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.input-pass input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000000; /* Change to #fff if background is dark */
+    padding: 10px 0;
+    font-size: 50px;
+	opacity: 0.65;
+}
+
+#_bg__log_in_page {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,255,255,1);
+}
+
+
+#title_box {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 109px;
+	background:rgba(42,52,57,1);
+}
+
+
+#rectangle_16 {
+	top: 482px;
+	left: 543px;
+	width: 835px;
+	height: 95px;
+}
+
+
+#rectangle_17 {
+	top: 646px;
+	left: 543px;
+	width: 835px;
+	height: 95px;
+}
+
+
+#___img__bl_logo {
+	top: 109px;
+	left: 529px;
+	width: 862px;
+	height: 307px;
+}
+
+
+#e_mail_ {
+	top: 430px;
+	left: 558px;
+	width: 171px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#e_mail_:before {
+
+	content: "E-mail:";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#password_ {
+	top: 592px;
+	left: 558px;
+	width: 231px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#password_:before {
+
+	content: "Password:";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#new_here_ {
+	top: 899px;
+	left: 887px;
+	width: 179px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 30px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#new_here_:before {
+
+	content: "New here?";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#sign_up {
+	top: 944px;
+	left: 906px;
+	width: 141px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#sign_up:before {
+
+	content: "Sign up";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FF8C00;
+}
+
+#___img__login_btn {
+	top: 791px;
+	left: 866px;
+	width: 186px;
+	height: 64px;
+}
+
+#rectangle_18 {
+	top: 0px;
+	left: 0px;
+	width: 186px;
+	height: 64px;
+}
+
+
+#log_in {
+	top: 4px;
+	left: 30px;
+	width: 139px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#log_in:before {
+
+	content: "Log in";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#___img__bl_back {
+	top: 109px;
+	left: 0px;
+	width: 160px;
+	height: 160px;
+	cursor: pointer;
+}
+
+
+
+/* Add your custom CSS here */

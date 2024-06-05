@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ 	<head>
+	 <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+	 <title>landing</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta name="description" content="">
+	 <link rel="StyleSheet" href="landing.css" />
+	 <script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+	 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	 <!-- Add your custom HEAD content here -->
+
+		<!-- Add Bootstrap CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Add Bootstrap JS and dependencies -->
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	 
+	 <!-- JavaScript code for redirecting to login page -->
+	 <script>
+		 document.addEventListener("DOMContentLoaded", function() {
+			 // Get the "Log in" button element
+			 var loginButton = document.getElementById("log_in");
+			 // Add a click event listener to the button
+			 loginButton.addEventListener("click", function() {
+				 // Navigate to the login page
+				 window.location.href = "log_in_page.html";
+			 });			 
+		 });
+
+		 document.addEventListener("DOMContentLoaded", function() {
+			 // Get the "Sign up" button element
+			 var signupButton = document.getElementById("sign_up");
+ 
+			 // Add a click event listener to the button
+			 signupButton.addEventListener("click", function() {
+				 // Navigate to the login page
+				 window.location.href = "sign_up_page.html";
+			 });		 
+		 });
+
+		 document.addEventListener("DOMContentLoaded", function() {
+            const loginFlag = 0; // Change this to 1 if the user is logged in; 
+
+			var oilButton = document.getElementById("___details");
+            oilButton.addEventListener("click", function() {
+				
+                if (loginFlag === 0) {
+                    $('#LoginModal').modal('show');
+                } else {
+                    // Redirect to details page if logged in
+                    window.location.href = "oil.html";
+                }
+            });
+
+			var flatButton = document.getElementById("___details_ek1");
+            flatButton.addEventListener("click", function() {
+				
+                if (loginFlag === 0) {
+                    $('#LoginModal').modal('show');
+                } else {
+                    // Redirect to details page if logged in
+                    window.location.href = "flat_tires.html";
+                }
+            });
+
+			var washButton = document.getElementById("___details_ek2");
+            washButton.addEventListener("click", function() {
+				
+                if (loginFlag === 0) {
+                    $('#LoginModal').modal('show');
+                } else {
+                    // Redirect to details page if logged in
+                    window.location.href = "car_wash.html";
+                }
+            });
+
+			var batterButton = document.getElementById("___details_ek3");
+            batterButton.addEventListener("click", function() {
+				
+                if (loginFlag === 0) {
+                    $('#LoginModal').modal('show');
+                } else {
+                    // Redirect to details page if logged in
+                    window.location.href = "battery.html";
+                }
+            });
+
+			var airButton = document.getElementById("___details_ek4");
+            airButton.addEventListener("click", function() {
+				
+                if (loginFlag === 0) {
+                    $('#LoginModal').modal('show');
+                } else {
+                    // Redirect to details page if logged in
+                    window.location.href = "air_filter.html";
+                }
+            });
+
+			var tireButton = document.getElementById("___details_ek5");
+            tireButton.addEventListener("click", function() {
+				
+                if (loginFlag === 0) {
+                    $('#LoginModal').modal('show');
+                } else {
+                    // Redirect to details page if logged in
+                    window.location.href = "tires_change.html";
+                }
+            });
+
+			var cleanButton = document.getElementById("___details_ek6");
+            cleanButton.addEventListener("click", function() {
+				
+                if (loginFlag === 0) {
+                    $('#LoginModal').modal('show');
+                } else {
+                    // Redirect to details page if logged in
+                    window.location.href = "deep_clean.html";
+                }
+            });
+
+			var engineButton = document.getElementById("___details_ek7");
+            engineButton.addEventListener("click", function() {
+				
+                if (loginFlag === 0) {
+                    $('#LoginModal').modal('show');
+                } else {
+                    // Redirect to details page if logged in
+                    window.location.href = "engine.html";
+                }
+            });
+		 });
+		
+	 </script>
+	</head>
+
+	
+		<!-- Modal -->
+		<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+					</div>
+					<div class="modal-body">
+						You need to log in to view details.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" onclick="window.location.href='log_in_page.html'">Log in</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		</body>
+			</div>
+			<div id="_bg__landing"  ></div>
+			<img src="skins/___img__head_backgr.png" id="___img__head_backgr" />
+			<div id="prestique" >
+				PRESTIQUE
+			</div>
+			<div id="motor_service" >
+				motor service
+			</div>
+			<div id="words" >
+				Words
+			</div>
+			<div id="our_services" >
+				Our services
+			</div>
+			<div id="got_not_fear__prestique_is_here" >
+				Got not fear, Prestique is here
+			</div>
+			<img src="skins/___img__wrench.png" id="___img__wrench" />
+			<img src="skins/___img__garage.png" id="___img__garage" />
+			<img src="skins/___img__wash.png" id="___img__wash" />
+			<img src="skins/___img__oil.png" id="___img__oil" />
+			<img src="skins/___img__clean.png" id="___img__clean" />
+			<img src="skins/___img__battery.png" id="___img__battery" />
+			<img src="skins/___img__air.png" id="___img__air" />
+			<img src="skins/___img__tires.png" id="___img__tires" />
+			<img src="skins/___img__flat.png" id="___img__flat" />
+			<img src="skins/___img__engine.png" id="___img__engine" />
+
+			<div id="group_4"  >
+				<div id="oil_change" >
+					Oil change
+				</div>
+				<div id="___details" >
+					>>details
+				</div>
+				<div id="line_1"  ></div>
+
+			</div>
+
+			<div id="group_6"  >
+				<div id="flat_tires" >
+					Flat tires
+				</div>
+				<div id="___details_ek1" >
+					>>details
+				</div>
+				<div id="line_1_ek1"  ></div>
+
+			</div>
+
+			<div id="group_7"  >
+				<div id="car_wash" >
+					Car wash
+				</div>
+				<div id="___details_ek2" >
+					>>details
+				</div>
+				<div id="line_1_ek2"  ></div>
+
+			</div>
+
+			<div id="group_8"  >
+				<div id="battery_maintenance" >
+					Battery maintenance
+				</div>
+				<div id="___details_ek3" >
+					>>details
+				</div>
+				<div id="line_1_ek3"  ></div>
+
+			</div>
+
+			<div id="group_5"  >
+				<div id="air_filter" >
+					Air filter
+				</div>
+				<div id="___details_ek4" >
+					>>details
+				</div>
+				<div id="line_1_ek4"  ></div>
+
+			</div>
+
+			<div id="group_10"  >
+				<div id="tires_change" >
+					Tires change
+				</div>
+				<div id="___details_ek5" >
+					>>details
+				</div>
+				<div id="line_1_ek5"  ></div>
+
+			</div>
+
+			<div id="group_11"  >
+				<div id="deep_clean" >
+					Deep clean
+				</div>
+				<div id="___details_ek6" >
+					>>details
+				</div>
+				<div id="line_1_ek6"  ></div>
+
+			</div>
+
+			<div id="group_12"  >
+				<div id="engine_maintenance" >
+					Engine maintenance
+				</div>
+				<div id="___details_ek7" >
+					>>details
+				</div>
+				<div id="line_1_ek7"  ></div>
+
+			</div>
+			<div id="___img__footer"  ></div>
+			<div id="welcome_to_prestique__your_trusted_partner_for_at_home_motor_servicing__we_bring_expert_maintenance_and_repairs_directly_to_your_doorstep__saving_you_time_and_hassle__our_certified_mechanics_handle_everything_from_routine_checks_to_complex_fixes_with_the_latest_tools_and_technology__enjoy_the_convenience_and_peace_of_mind_of_professional_motor_care_at_home__schedule_your_service_today_with_us_" >
+				Welcome to Prestique, your trusted partner for at-home motor servicing. We bring expert maintenance and  repairs directly to your doorstep, saving you time and hassle. Our certified mechanics handle everything from routine checks to complex fixes with the latest tools  and technology. Enjoy the convenience and peace of  mind of professional motor care at home. Schedule  your service today with us. 
+			</div>
+			<div id="___img__header"  ></div>
+			<img onclick="window.location.href = 'landing.html'" style="cursor: pointer;" src="skins/___img__logo.png" id="___img__logo" />
+
+			<div id="___img__menu_button"  >
+				<div id="rectangle_12"  ></div>
+				<div id="rectangle_13"  ></div>
+				<div id="rectangle_14"  ></div>
+
+			</div>
+			<div id="log_in" >
+				Log in
+			</div>
+			<div id="sign_up" >
+				Sign up
+			</div>
+			<div id="service" style="display:none" onclick="window.location.href='services.html'">
+				Service
+			</div>
+			<div id="log_out" style="display:none" onclick="logout()">
+				Log out
+			</div>
+			<div class="signup_box">
+				<button type="detail" class="submit" onclick="openPopup()">details</button>
+				<div class="popup" id="popup">
+					<img src="skins/___img__succ.png" id="___img__succ"/>
+					<h2>Sign up successfully</h2>
+					<button type="button" onclick="closePopup()">OK</button>
+				</div>
+			</div>
+		</div>
+		<Script>
+			let popup = document.getElementById("popup");
+			function openPopup(){
+				popup.classList.add("open-popup");
+			}
+			function closePopup(){
+				popup.classList.remove("open-popup");
+			}
+			
+		</Script>
+
+		<script src="landing.js"></script>
+		
+	</body>
+</html>
+
+

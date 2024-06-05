@@ -1,0 +1,170 @@
+/*
+	@name engine
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1500px; width: 1500px; height: 1234px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__engine {
+	opacity:0.95;
+	top: 0px;
+	left: 0px;
+	width: 1500px;
+	height: 1234px;
+	background:rgba(176,176,176,1);
+        border-radius: 50px;
+}
+
+
+#this_includes_regular_oil_changes__replacing_filters__checking_and_topping_up_fluids__inspecting_belts_and_hoses__and_ensuring_proper_tire_pressure__additionally__it_s_important_to_address_any_warning_lights_or_unusual_noises_promptly_to_prevent_potential_damage_ {
+	top: 713px;
+	left: 127px;
+	width: 1258px;
+	height: 264px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#this_includes_regular_oil_changes__replacing_filters__checking_and_topping_up_fluids__inspecting_belts_and_hoses__and_ensuring_proper_tire_pressure__additionally__it_s_important_to_address_any_warning_lights_or_unusual_noises_promptly_to_prevent_potential_damage_:before {
+
+	content: " This includes regular oil changes, replacing filters, checking and topping up fluids, inspecting belts and hoses, and ensuring proper tire pressure. Additionally, it's important to address any warning lights or unusual noises promptly to prevent potential damage.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#price__vnd_2_500_000 {
+	top: 999px;
+	left: 204px;
+	width: 452px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#price__vnd_2_500_000:before {
+
+	content: "Price: VND 2 500 000";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FF0000;
+}
+
+
+#engine_maintenance {
+	top: 75px;
+	left: 235px;
+	width: 1051px;
+	height: 186px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 90px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#engine_maintenance:before {
+
+	content: "ENGINE MAINTENANCE";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #1D2951;
+}
+
+
+#___img__bl_back {
+	top: 38px;
+	left: 51px;
+	width: 160px;
+	height: 160px;
+	cursor: pointer;
+
+}
+
+#___img__group_22 {
+	top: 958px;
+	left: 911px;
+	width: 327px;
+	height: 163px;
+}
+#group_21 {
+	top: 0px;
+	left: 31px;
+	width: 296px;
+	height: 69px;
+}
+
+#rectangle_23 {
+	top: 0px;
+	left: 0px;
+	width: 296px;
+	height: 69px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border: 4px solid #000000;
+	background:rgba(255,140,0,1);
+}
+
+
+#add_to_cart {
+	top: 7px;
+	left: 40px;
+	width: 227px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#add_to_cart:before {
+
+	content: "Add to cart";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#___img__bl_cart {
+	top: 48px;
+	left: 0px;
+	width: 115px;
+	height: 115px;
+}
+
+
+#image_27 {
+	top: 198px;
+	left: 404px;
+	width: 768px;
+	height: 491px;
+}
+
+
+
+/* Add your custom CSS here */

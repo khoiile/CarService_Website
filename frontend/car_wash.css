@@ -1,0 +1,170 @@
+/*
+	@name car_wash
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1500px; width: 1500px; height: 1234px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__car_wash {
+	opacity:0.95;
+	top: 0px;
+	left: 0px;
+	width: 1500px;
+	height: 1234px;
+	background:rgba(176,176,176,1);
+        border-radius: 50px;
+}
+
+
+#regular_car_washes_protect_your_vehicle_s_paint_from_dirt_and_damage__use_gentle_cleaners_and_methods_to_avoid_scratches__clean_the_undercarriage_to_prevent_rust__and_apply_wax_for_added_protection_ {
+	top: 713px;
+	left: 205px;
+	width: 1103px;
+	height: 264px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#regular_car_washes_protect_your_vehicle_s_paint_from_dirt_and_damage__use_gentle_cleaners_and_methods_to_avoid_scratches__clean_the_undercarriage_to_prevent_rust__and_apply_wax_for_added_protection_:before {
+
+	content: "Regular car washes protect your vehicle's paint from dirt and damage. Use gentle cleaners and methods to avoid scratches. Clean the undercarriage to prevent rust, and apply wax for added protection.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#price__vnd_200_000 {
+	top: 999px;
+	left: 204px;
+	width: 452px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#price__vnd_200_000:before {
+
+	content: "Price: VND 200 000";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FF0000;
+}
+
+
+#car_wash {
+	top: 75px;
+	left: 490px;
+	width: 541px;
+	height: 186px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 90px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#car_wash:before {
+
+	content: "CAR WASH";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #1D2951;
+}
+
+
+#___img__bl_back {
+	top: 38px;
+	left: 51px;
+	width: 160px;
+	height: 160px;
+	cursor: pointer;
+
+}
+
+#___img__group_22 {
+	top: 958px;
+	left: 911px;
+	width: 327px;
+	height: 163px;
+}
+#group_21 {
+	top: 0px;
+	left: 31px;
+	width: 296px;
+	height: 69px;
+}
+
+#rectangle_23 {
+	top: 0px;
+	left: 0px;
+	width: 296px;
+	height: 69px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border: 4px solid #000000;
+	background:rgba(255,140,0,1);
+}
+
+
+#add_to_cart {
+	top: 7px;
+	left: 40px;
+	width: 227px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#add_to_cart:before {
+
+	content: "Add to cart";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#___img__bl_cart {
+	top: 48px;
+	left: 0px;
+	width: 115px;
+	height: 115px;
+}
+
+
+#image_22 {
+	top: 198px;
+	left: 404px;
+	width: 768px;
+	height: 491px;
+}
+
+
+
+/* Add your custom CSS here */

@@ -1,0 +1,698 @@
+/*
+	@name services
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1920px; width: 1920px; height: 4000px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__services {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 4000px;
+	background:rgba(0,0,0,1);
+}
+
+
+#services {
+	top: 265px;
+	left: 755px;
+	width: 504px;
+	height: 183px;
+	overflow: hidden;
+	font-family: Exo;
+	font-size: 90px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text:1px 5px 4px rgba(0,0,0,0.25);
+	-o-text:1px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text:1px 5px 4px rgba(0,0,0,0.25);
+	-moz-text:1px 5px 4px rgba(0,0,0,0.25);
+	text:1px 5px 4px rgba(0,0,0,0.25);
+	color:#FFFFFF;
+}
+
+
+#image_15 {
+	top: 2083px;
+	left: 0px;
+	width: 925px;
+	height: 592px;
+}
+
+
+#___img__oil {
+	top: 463px;
+	left: 0px;
+	width: 925px;
+	height: 592px;
+}
+
+
+#image_16 {
+	top: 2083px;
+	left: 995px;
+	width: 925px;
+	height: 592px;
+}
+
+
+#image_17 {
+	top: 2893px;
+	left: 0px;
+	width: 925px;
+	height: 592px;
+}
+
+
+#image_18 {
+	top: 463px;
+	left: 995px;
+	width: 925px;
+	height: 592px;
+}
+
+
+#image_19 {
+	top: 1273px;
+	left: 995px;
+	width: 925px;
+	height: 592px;
+}
+
+
+#image_20 {
+	top: 1273px;
+	left: 0px;
+	width: 925px;
+	height: 592px;
+}
+
+
+#image_21 {
+	top: 2893px;
+	left: 995px;
+	width: 925px;
+	height: 592px;
+}
+
+#group_13 {
+	top: 1054px;
+	left: 61px;
+	width: 818px;
+	height: 123px;
+}
+
+#oil_change {
+	top: 13px;
+	left: 18px;
+	width: 412px;
+	height: 144px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 70px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#oil_change:before {
+
+	content: "Oil change";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#___details {
+	top: 43px;
+	left: 650px;
+	width: 213px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#___details:before {
+
+	content: ">>details";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#line_1 {
+	top: 62px;
+	left: -62px;
+	width: 123px;
+	height: 5px;
+	
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	background:#FF8C00;
+}
+
+#group_14 {
+	top: 1865px;
+	left: 61px;
+	width: 818px;
+	height: 123px;
+}
+
+#flat_tires {
+	top: 13px;
+	left: 18px;
+	width: 352px;
+	height: 144px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 70px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#flat_tires:before {
+
+	content: "Flat tires";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#___details_ek1 {
+	top: 43px;
+	left: 650px;
+	width: 213px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#___details_ek1:before {
+
+	content: ">>details";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#line_1_ek1 {
+	top: 62px;
+	left: -62px;
+	width: 123px;
+	height: 5px;
+	
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	background:#FF8C00;
+}
+
+#group_15 {
+	top: 2675px;
+	left: 53px;
+	width: 818px;
+	height: 123px;
+}
+
+#car_wash {
+	top: 13px;
+	left: 18px;
+	width: 371px;
+	height: 144px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 70px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#car_wash:before {
+
+	content: "Car wash";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#___details_ek2 {
+	top: 43px;
+	left: 650px;
+	width: 213px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#___details_ek2:before {
+
+	content: ">>details";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#line_1_ek2 {
+	top: 62px;
+	left: -62px;
+	width: 123px;
+	height: 5px;
+	
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	background:#FF8C00;
+}
+
+#group_16 {
+	top: 3485px;
+	left: 45px;
+	width: 818px;
+	height: 123px;
+}
+
+#battery_maintenance {
+	top: 26px;
+	left: 8px;
+	width: 675.5px;
+	height: 134.5px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 65px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#battery_maintenance:before {
+
+	content: "Battery maintenance";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#___details_ek3 {
+	top: 43px;
+	left: 650px;
+	width: 213px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#___details_ek3:before {
+
+	content: ">>details";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#line_1_ek3 {
+	top: 62px;
+	left: -62px;
+	width: 123px;
+	height: 5px;
+	
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	background:#FF8C00;
+}
+
+#group_17 {
+	top: 1055px;
+	left: 1056px;
+	width: 811px;
+	height: 123px;
+}
+
+#air_filter {
+	top: 13px;
+	left: 11px;
+	width: 332px;
+	height: 144px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 70px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#air_filter:before {
+
+	content: "Air filter";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#___details_ek4 {
+	top: 43px;
+	left: 643px;
+	width: 213px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#___details_ek4:before {
+
+	content: ">>details";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#line_1_ek4 {
+	top: 62px;
+	left: -62px;
+	width: 123px;
+	height: 5px;
+	
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	background:#FF8C00;
+}
+
+#group_18 {
+	top: 1865px;
+	left: 1052px;
+	width: 811px;
+	height: 123px;
+}
+
+#tires_change {
+	top: 13px;
+	left: 11px;
+	width: 477px;
+	height: 144px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 70px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#tires_change:before {
+
+	content: "Tires change";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#___details_ek5 {
+	top: 43px;
+	left: 643px;
+	width: 213px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#___details_ek5:before {
+
+	content: ">>details";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#line_1_ek5 {
+	top: 62px;
+	left: -62px;
+	width: 123px;
+	height: 5px;
+	
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	background:#FF8C00;
+}
+
+#group_19 {
+	top: 2688px;
+	left: 1052px;
+	width: 811px;
+	height: 123px;
+}
+
+#deep_clean {
+	top: 13px;
+	left: 11px;
+	width: 428px;
+	height: 144px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 70px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#deep_clean:before {
+
+	content: "Deep clean";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#___details_ek6 {
+	top: 43px;
+	left: 643px;
+	width: 213px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#___details_ek6:before {
+
+	content: ">>details";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#line_1_ek6 {
+	top: 62px;
+	left: -62px;
+	width: 123px;
+	height: 5px;
+	
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	background:#FF8C00;
+}
+
+#group_20 {
+	top: 3485px;
+	left: 1052px;
+	width: 811px;
+	height: 123px;
+}
+
+#engine_maintenance {
+	top: 26px;
+	left: 10px;
+	width: 658.5px;
+	height: 134.5px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 65px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#engine_maintenance:before {
+
+	content: "Engine maintenance";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#___details_ek7 {
+	top: 43px;
+	left: 643px;
+	width: 213px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#___details_ek7:before {
+
+	content: ">>details";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FFFFFF;
+}
+
+
+#line_1_ek7 {
+	top: 62px;
+	left: -62px;
+	width: 123px;
+	height: 5px;
+	
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	background:#FF8C00;
+}
+
+
+#___img__footer {
+	top: 3629px;
+	left: 0px;
+	width: 1920px;
+	height: 371px;
+	background:rgba(42,52,57,1);
+}
+
+
+#title_box {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 186px;
+	background:rgba(42,52,57,1);
+}
+
+
+#___img__logo {
+	top: 0px;
+	left: 0px;
+	width: 491px;
+	height: 216px;
+}
+
+
+#___img__or_cart {
+	top: 32px;
+	left: 1716px;
+	width: 151px;
+	height: 151px;
+	cursor: pointer;
+}
+
+
+#___img__profile_pic {
+	top: 28px;
+	left: 1476px;
+	width: 159px;
+	height: 159px;
+}
+
+
+#log_out {
+	top: 81px;
+	left: 1255px;
+	width: 185px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Exo;
+	font-size: 40px;
+	text-align: left;
+	-ms-text:1px 5px 4px rgba(0,0,0,0.25);
+	-o-text:1px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text:1px 5px 4px rgba(0,0,0,0.25);
+	-moz-text:1px 5px 4px rgba(0,0,0,0.25);
+	text:1px 5px 4px rgba(0,0,0,0.25);
+	color:#FFFFFF;
+	cursor: pointer;
+}
+
+
+
+/* Add your custom CSS here */

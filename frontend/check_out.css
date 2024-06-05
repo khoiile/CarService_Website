@@ -1,0 +1,520 @@
+/*
+	@name check_out
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1920px; width: 1920px; height: 2400px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__check_out {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 2400px;
+	background:rgba(255,255,255,1);
+}
+
+
+#check_out {
+	top: 160px;
+	left: 746px;
+	width: 513px;
+	height: 162px;
+	overflow: hidden;
+	font-family: Exo;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#check_out:before {
+
+	content: "CHECK OUT";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#no_ {
+	top: 345px;
+	left: 80px;
+	width: 156px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#no_:before {
+
+	content: "No.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#_1_ {
+	top: 500px;
+	left: 100px;
+	width: 115px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#_1_:before {
+
+	content: "1.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#_2_ {
+	top: 669px;
+	left: 100px;
+	width: 115px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#_2_:before {
+
+	content: "2.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#_3_ {
+	top: 853px;
+	left: 100px;
+	width: 115px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#_3_:before {
+
+	content: "3.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#_4_ {
+	top: 1011px;
+	left: 102px;
+	width: 115px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#_4_:before {
+
+	content: "4.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#_5_ {
+	top: 1195px;
+	left: 100px;
+	width: 115px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#_5_:before {
+
+	content: "5.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#service {
+	top: 345px;
+	left: 267px;
+	width: 262px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#service:before {
+
+	content: "Service";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#total_ {
+	top: 1419px;
+	left: 960px;
+	width: 222px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#total_:before {
+
+	content: "Total:";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#name_ {
+	top: 1555px;
+	left: 102px;
+	width: 2000px;
+	height: 103px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 50px;
+	text-align: left;
+	color: black;
+	opacity: 1;
+}
+#name_:before {
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+
+
+#id_ {
+	top: 295px;
+	left: 602px;
+	width: 117px;
+	height: 103px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 50px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#id_:before {
+
+	content: "ID:";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #ffffff;
+}
+
+
+#phone_number_ {
+	top: 1673px;
+	left: 102px;
+	width: 2000px;
+	height: 103px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 50px;
+	text-align: left;
+	color: black;
+	opacity: 1;
+}
+#phone_number_:before {
+
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+
+
+#e_mail_ {
+	top: 1791px;
+	left: 102px;
+	width: 2000px;
+	height: 103px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 50px;
+	text-align: left;
+	color: black;
+	opacity: 1;
+}
+#e_mail_:before {
+
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+
+
+#address_ {
+	top: 1909px;
+	left: 102px;
+	width: 2000px;
+	height: 103px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 50px;
+	text-align: left;
+	color: black;
+	opacity: 1;
+}
+#address_:before {
+
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+
+
+#booked_date_ {
+	top: 2027px;
+	left: 102px;
+	width: 2000px;
+	height: 103px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 50px;
+	text-align: left;
+	color: black;
+	opacity: 1;
+}
+#booked_date_:before {
+
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+
+
+#price {
+	top: 345px;
+	left: 1588px;
+	width: 197px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#price:before {
+
+	content: "Price";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#vnd {
+	top: 1395px;
+	left: 1208px;
+	width: 900px;
+	height: 124px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 60px;
+	text-align: left;
+	color: black;
+	display: flex;
+	align-items: center;	
+	opacity: 1;
+}
+#vnd:before {
+
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+
+
+#___img__bl_back {
+	top: 0px;
+	left: 0px;
+	width: 160px;
+	height: 174.7px;
+}
+
+
+#___img__bl_logo {
+	top: 0px;
+	left: 1429px;
+	width: 491px;
+	height: 216px;
+}
+
+
+#line_7 {
+	top: 505px;
+	left: 267px;
+	width: 1162.08px;
+	height: 2px;
+	font-size: 60px;
+}
+
+
+#line_8 {
+	top: 680px;
+	left: 267px;
+	width: 1162.08px;
+	height: 2px;
+	font-size: 60px;
+}
+
+
+#line_9 {
+	top: 860px;
+	left: 267px;
+	width: 1162.08px;
+	height: 2px;
+	font-size: 60px;
+}
+
+
+#line_10 {
+	top: 1020px;
+	left: 267px;
+	width: 1162.08px;
+	height: 2px;
+	font-size: 60px;
+}
+
+
+#line_11 {
+	top: 1200px;
+	left: 267px;
+	width: 1162.08px;
+	height: 2px;
+	font-size: 60px;
+}
+
+#___img__signup_box {
+	top: 2162px;
+	left: 705px;
+	width: 504px;
+	height: 90px;
+}
+#group_3 {
+	top: -70px;
+	left: 0px;
+	width: 504px;
+	height: 90px;
+}
+
+#group_4 {
+	top: 30px;
+	left: 0px;
+	width: 504px;
+	height: 90px;
+}
+
+#rectangle_18 {
+	top: 0px;
+	left: 0px;
+	width: 504px;
+	height: 90px;
+}
+
+
+#proceed_to_payment {
+	top: 16px;
+	left: 56px;
+	width: 417px;
+	height: 86px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	opacity: 1;
+	cursor: pointer;
+}
+
+#proceed_to_payment:before {
+
+	position: absolute;
+	top: 0px;
+	left: 4px;
+}
+
+
+#by_continuing__i_am_sure_that_all_provided_information_are_correct_ {
+	top: 2287px;
+	left: 347px;
+	width: 1237px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+/* Add your custom CSS here */

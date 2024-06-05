@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>sign_up_page</title>
+		<title>Validated Login</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="sign_up_page.css" />
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+		<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+		<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			 // Get the "Log in" button element
+			 var loginButton = document.getElementById("___img__bl_back");
+ 
+			 // Add a click event listener to the button
+			 loginButton.addEventListener("click", function() {
+				 // Navigate to the login page
+				 window.location.href = "landing.html";
+		 });
+		});
+
+		</script>
+	</head>
+
+	<body>
+		<div id="content-container" >
+			<div id="_bg__sign_up_page"  ></div>
+			<div id="title_box"  ></div>
+
+			<img src="skins/rectangle_16.png" id="rectangle_16" />
+			<img src="skins/rectangle_20.png" id="rectangle_20" />
+			<img src="skins/rectangle_18.png" id="rectangle_18" />
+			<img src="skins/rectangle_17.png" id="rectangle_17" />
+			<img src="skins/rectangle_22.png" id="rectangle_22" />
+			<img src="skins/rectangle_19.png" id="rectangle_19" />
+			<img src="skins/___img__bl_logo.png" id="___img__bl_logo" />
+			<div id="form-box" class="form-box">
+				<div class="input-mail">
+					<input type="email" placeholder="enter your e-mail" id="email">
+				</div>
+				<div class="input-pass">
+					<input type="password" placeholder="enter your password" id="pass">
+				</div>
+				<div class="input-repass">
+					<input type="password" placeholder="re-enter your password" id="repass">
+				</div>
+				<div class="input-name">
+					<input type="name" placeholder="enter your name" id="name">
+				</div>
+				<div class="input-phonenumber">
+					<input type="phone number" placeholder="enter your phone number" id="sdt">
+				</div>
+				<div class="input-address">
+					<input type="address" placeholder="enter your address" id="address">
+				</div>
+			</div>>
+			<div id="__e_mail_" >
+				<span style="color:#FF0000; font-style:normal; font-weight:normal; text-decoration:NONE; ">*</span><span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">E-mail</span>
+			</div>
+			<div id="__phone_number_" >
+				<span style="color:#FF0000; font-style:normal; font-weight:normal; text-decoration:NONE; ">*</span><span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">Phone number</span>
+			</div>
+			<div id="__re_enter_password_" >
+				<span style="color:#FF0000; font-style:normal; font-weight:normal; text-decoration:NONE; ">*</span><span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">Re-enter password</span>
+			</div>
+			<div id="__password_" >
+				<span style="color:#FF0000; font-style:normal; font-weight:normal; text-decoration:NONE; ">*</span><span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">Password</span>
+			</div>
+			<div id="__address_" >
+				<span style="color:#FF0000; font-style:normal; font-weight:normal; text-decoration:NONE; ">*</span><span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">Address</span>
+			</div>
+			<div id="___when_signing_up__you_have_agreed_our_policy__" >
+				<span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">! When signing up, you have agreed our</span><span style="color:#FF0000; font-style:normal; font-weight:normal; text-decoration:NONE; "> policy </span>
+			</div>
+			<div id="_____required_fields_" >
+				<span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">* </span><span style="color:#000000; font-style:normal; font-weight:normal; text-decoration:NONE; ">: Required fields</span>
+			</div>
+			<div id="__name_" >
+				<span style="color:#FF0000; font-style:normal; font-weight:normal; text-decoration:NONE; ">*</span><span style="font-style:normal; font-weight:normal; text-decoration:NONE; ">Name</span>
+			</div>
+			<div class="signup_box">
+			<button type="signup" class="submit" onclick="register()">Sign up</button>
+			<div class="popup" id="popup">
+				<img src="skins/___img__succ.png" id="___img__succ"/>
+				<h2>Sign up successfully</h2>
+				<button type="button" onclick="closePopup()">OK</button>
+			</div>
+		</div>
+			<img src="skins/___img__bl_back.png" id="___img__bl_back" />
+
+		</div>
+		<script>
+			let popup = document.getElementById("popup");
+			function openPopup(){
+				popup.classList.add("open-popup");
+			}
+			function closePopup(){
+				popup.classList.remove("open-popup");
+			}
+		</script>
+		<script src="sign_up_page.js"></script>
+	</body>
+</html>

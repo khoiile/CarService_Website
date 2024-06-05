@@ -1,0 +1,170 @@
+/*
+	@name oil
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1500px; width: 1500px; height: 1234px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__oil {
+	opacity:0.95;
+	top: 0px;
+	left: 0px;
+	width: 1500px;
+	height: 1234px;
+	background:rgba(176,176,176,1);
+        border-radius: 50px;
+}
+
+
+#___img__oil {
+	top: 198px;
+	left: 366px;
+	width: 768px;
+	height: 491px;
+}
+
+
+#an_oil_change_is_essential_for_maintaining_the_health_and_performance_of_your_vehicle__regular_oil_changes_help_to_lubricate_engine_components__reduce_friction__and_prevent_overheating__ensuring_that_your_car_runs_smoothly_ {
+	top: 713px;
+	left: 205px;
+	width: 1103px;
+	height: 264px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#an_oil_change_is_essential_for_maintaining_the_health_and_performance_of_your_vehicle__regular_oil_changes_help_to_lubricate_engine_components__reduce_friction__and_prevent_overheating__ensuring_that_your_car_runs_smoothly_:before {
+
+	content: "An oil change is essential for maintaining the health and performance of your vehicle. Regular oil changes help to lubricate engine components, reduce friction, and prevent overheating, ensuring that your car runs smoothly.";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#price__vnd_1_000_000 {
+	top: 999px;
+	left: 204px;
+	width: 452px;
+	height: 101px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#price__vnd_1_000_000:before {
+
+	content: "Price: VND 1 000 000";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #FF0000;
+}
+
+
+#oil_change {
+	top: 75px;
+	left: 463px;
+	width: 594px;
+	height: 186px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 90px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+}
+#oil_change:before {
+
+	content: "OIL CHANGE";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #1D2951;
+}
+
+
+#___img__bl_back {
+	top: 38px;
+	left: 51px;
+	width: 160px;
+	height: 160px;
+	cursor: pointer;
+
+}
+
+#___img__group_22 {
+	top: 958px;
+	left: 911px;
+	width: 327px;
+	height: 163px;
+}
+#group_21 {
+	top: 0px;
+	left: 31px;
+	width: 296px;
+	height: 69px;
+}
+
+#rectangle_23 {
+	top: 0px;
+	left: 0px;
+	width: 296px;
+	height: 69px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border: 4px solid #000000;
+	background:rgba(255,140,0,1);
+}
+
+
+#add_to_cart {
+	top: 7px;
+	left: 40px;
+	width: 227px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Nunito;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(0,0,0,0);
+	opacity: 1;
+	cursor: pointer;
+}
+#add_to_cart:before {
+
+	content: "Add to cart";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #000000;
+}
+
+
+#___img__bl_cart {
+	top: 48px;
+	left: 0px;
+	width: 115px;
+	height: 115px;
+}
+
+
+
+/* Add your custom CSS here */
