@@ -318,7 +318,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #oil_change:before {
@@ -340,7 +340,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgb(226, 226, 226);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #___details:before {
@@ -348,8 +348,8 @@ div { position: absolute; }
 	content: ">>details";
 	position: absolute;
 	top: 0px;
-	left: 2.5px;
-	color: #4c00ff;
+	left: 4px;
+	color: #FFFFFF;
 }
 
 
@@ -383,7 +383,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #flat_tires:before {
@@ -405,7 +405,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #___details_ek1:before {
@@ -413,8 +413,8 @@ div { position: absolute; }
 	content: ">>details";
 	position: absolute;
 	top: 0px;
-	left: 2.5px;
-	color: #4c00ff;
+	left: 4px;
+	color: #FFFFFF;
 }
 
 
@@ -448,7 +448,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #car_wash:before {
@@ -470,7 +470,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #___details_ek2:before {
@@ -478,8 +478,8 @@ div { position: absolute; }
 	content: ">>details";
 	position: absolute;
 	top: 0px;
-	left: 2.5px;
-	color: #4c00ff;
+	left: 4px;
+	color: #FFFFFF;
 }
 
 
@@ -513,7 +513,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 65px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #battery_maintenance:before {
@@ -535,7 +535,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #___details_ek3:before {
@@ -543,8 +543,8 @@ div { position: absolute; }
 	content: ">>details";
 	position: absolute;
 	top: 0px;
-	left: 2.5px;
-	color: #4c00ff;
+	left: 4px;
+	color: #FFFFFF;
 }
 
 
@@ -578,7 +578,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #air_filter:before {
@@ -600,7 +600,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #___details_ek4:before {
@@ -608,8 +608,8 @@ div { position: absolute; }
 	content: ">>details";
 	position: absolute;
 	top: 0px;
-	left: 2.5px;
-	color: #4c00ff;
+	left: 4px;
+	color: #FFFFFF;
 }
 
 
@@ -643,7 +643,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #tires_change:before {
@@ -665,7 +665,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #___details_ek5:before {
@@ -673,8 +673,8 @@ div { position: absolute; }
 	content: ">>details";
 	position: absolute;
 	top: 0px;
-	left: 2.5px;
-	color: #4c00ff;
+	left: 4px;
+	color: #FFFFFF;
 }
 
 
@@ -708,7 +708,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #deep_clean:before {
@@ -730,7 +730,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #___details_ek6:before {
@@ -738,8 +738,8 @@ div { position: absolute; }
 	content: ">>details";
 	position: absolute;
 	top: 0px;
-	left: 2.5px;
-	color: #4c00ff;
+	left: 4px;
+	color: #FFFFFF;
 }
 
 
@@ -773,7 +773,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 65px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #engine_maintenance:before {
@@ -795,7 +795,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #___details_ek7:before {
@@ -803,8 +803,8 @@ div { position: absolute; }
 	content: ">>details";
 	position: absolute;
 	top: 0px;
-	left: 2.5px;
-	color: #4c00ff;
+	left: 4px;
+	color: #FFFFFF;
 }
 
 
@@ -845,7 +845,7 @@ div { position: absolute; }
 	margin-top: -11.666666666667px;
 	height: 716.5px;
 	letter-spacing: 2.25px;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #welcome_to_prestique__your_trusted_partner_for_at_home_motor_servicing__we_bring_expert_maintenance_and_repairs_directly_to_your_doorstep__saving_you_time_and_hassle__our_certified_mechanics_handle_everything_from_routine_checks_to_complex_fixes_with_the_latest_tools_and_technology__enjoy_the_convenience_and_peace_of_mind_of_professional_motor_care_at_home__schedule_your_service_today_with_us_:before {
@@ -933,7 +933,7 @@ div { position: absolute; }
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 	cursor: pointer;
 }
@@ -956,7 +956,7 @@ div { position: absolute; }
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 	cursor: pointer;
 }
@@ -979,7 +979,7 @@ div { position: absolute; }
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 	cursor: pointer
 }
@@ -1002,7 +1002,7 @@ div { position: absolute; }
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 	cursor: pointer
 }

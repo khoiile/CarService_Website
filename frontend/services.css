@@ -31,11 +31,11 @@ div { position: absolute; }
 	font-size: 90px;
 	font-weight: bold;
 	text-align: left;
-	-ms-text:1px 5px 4px rgba(0,0,0,0.25);
-	-o-text:1px 5px 4px rgba(0,0,0,0.25);
-	-webkit-text:1px 5px 4px rgba(0,0,0,0.25);
-	-moz-text:1px 5px 4px rgba(0,0,0,0.25);
-	text:1px 5px 4px rgba(0,0,0,0.25);
+	-ms-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:1px 5px 4px rgba(0,0,0,0.25);
 	color:#FFFFFF;
 }
 
@@ -119,8 +119,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #oil_change:before {
 
@@ -141,9 +141,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
-	cursor: pointer;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #___details:before {
 
@@ -185,8 +184,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #flat_tires:before {
 
@@ -207,9 +206,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
-	cursor: pointer;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #___details_ek1:before {
 
@@ -251,8 +249,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #car_wash:before {
 
@@ -273,9 +271,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
-	cursor: pointer;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #___details_ek2:before {
 
@@ -317,8 +314,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 65px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #battery_maintenance:before {
 
@@ -339,9 +336,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
-	cursor: pointer;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #___details_ek3:before {
 
@@ -383,8 +379,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #air_filter:before {
 
@@ -405,9 +401,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
-	cursor: pointer;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #___details_ek4:before {
 
@@ -449,8 +444,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #tires_change:before {
 
@@ -471,9 +466,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
-	cursor: pointer;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #___details_ek5:before {
 
@@ -515,8 +509,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 70px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #deep_clean:before {
 
@@ -537,9 +531,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
-	cursor: pointer;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #___details_ek6:before {
 
@@ -581,8 +574,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 65px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #engine_maintenance:before {
 
@@ -603,9 +596,8 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
-	opacity: 1;
-	cursor: pointer;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
 }
 #___details_ek7:before {
 
@@ -663,15 +655,6 @@ div { position: absolute; }
 	left: 1716px;
 	width: 151px;
 	height: 151px;
-	cursor: pointer;
-}
-
-
-#___img__profile_pic {
-	top: 28px;
-	left: 1476px;
-	width: 159px;
-	height: 159px;
 }
 
 
@@ -684,13 +667,21 @@ div { position: absolute; }
 	font-family: Exo;
 	font-size: 40px;
 	text-align: left;
-	-ms-text:1px 5px 4px rgba(0,0,0,0.25);
-	-o-text:1px 5px 4px rgba(0,0,0,0.25);
-	-webkit-text:1px 5px 4px rgba(0,0,0,0.25);
-	-moz-text:1px 5px 4px rgba(0,0,0,0.25);
-	text:1px 5px 4px rgba(0,0,0,0.25);
+	-ms-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:1px 5px 4px rgba(0,0,0,0.25);
 	color:#FFFFFF;
-	cursor: pointer;
+}
+
+#profile {
+	top: 50px;
+	left: 1500px;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	color:#FFFFFF;
 }
 
 

@@ -30,7 +30,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 60px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #your_cart:before {
@@ -52,7 +52,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #no_:before {
@@ -74,7 +74,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #service:before {
@@ -96,7 +96,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #price:before {
@@ -119,7 +119,7 @@ div { position: absolute; }
 	font-size: 45px;
 	font-weight: bold;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #total_:before {
@@ -157,7 +157,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #_1_:before {
@@ -179,7 +179,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #_2_:before {
@@ -201,7 +201,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #_3_:before {
@@ -223,7 +223,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #_4_:before {
@@ -245,7 +245,7 @@ div { position: absolute; }
 	font-family: Nunito;
 	font-size: 40px;
 	text-align: center;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
 }
 #_5_:before {
@@ -411,9 +411,8 @@ div { position: absolute; }
 	font-size: 45px;
 	font-weight: bold;
 	text-align: left;
-	color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0.25);
 	opacity: 1;
-	cursor: pointer;
 }
 #book:before {
 

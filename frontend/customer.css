@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:"Arial";
+}
+
+.wrap_nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0% 5%; 
+	background:rgba(42,52,57,1);
+}
+
+.wrap_logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo{
+	width: 200px;
+}
+
+.list{
+	list-style: none;
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#logout{
+	color: rgb(254, 49, 49);
+}
+
+.list_item{
+	color: white;
+}
+
+.wrap_content{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+
+.content{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 2%;
+	border-radius: 20px;
+	width: 50%;
+	background-color: rgb(236, 236, 236);
+}
+
+.wrap_header{
+	margin-bottom: 20px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+.wrap_form{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.wrap_row{
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	padding: 2%;
+}
+
+.lab{
+	font-size: 17px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.inp{
+	height: 30px;
+	padding: 3px;
+	border-top: 0px;
+	border-inline: 0px;
+	border-style: solid ;
+	outline: none;
+	background-color: transparent;
+	font-size: 16px;
+}
+
+.btn{
+	height: 35px;
+	border-width: 1px;
+	margin-top: 5px;
+}
+
+#change_btn{
+	background-color: black;
+	color: white ;
+	font-size: 14px;
+}
+
+#del_btn{
+	background-color: red;
+	color: white ;
+	font-size: 14px;
+}
+
+#oldpass{
+	margin-block: 10px;
+}

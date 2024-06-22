@@ -220,7 +220,6 @@ div { position: absolute; }
 	text-align: center;
 	color: rgba(0,0,0,0);
 	opacity: 1;
-	cursor: pointer;
 }
 #log_in:before {
 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="customer.css">
+	<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+	<script src="Controller.js"></script>
+	<script src="customer.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+	<title id="title_cus">Customer - </title>
+</head>
+<body>
+	<header class="wrap_nav">
+			<div class="wrap_logo">
+				<img class="logo" src="/skins/___img__logo.png"/>
+			</div>
+			<div class="wrap_link">
+				<ul class="list">
+					<li class="list_item"><a href="services.html">Services</a></li>
+					<li class="list_item"><a onclick="logout()" id="logout">Log out</a></li>
+					<li class="list_item"><a href="cart.html"><img style="width:40px;height:40px" src="/skins/___img__or_cart.png"></a></li>
+				</ul>
+			</div>
+	</header>
+	<section class="wrap_content">
+		<div class="content">
+			<div class="wrap_header">
+				<h1>User Profile</h1>
+			</div>
+			<div class="wrap_form">
+				<div class="wrap_row">
+					<label class="lab">Name</label>
+					<input type="text" class="inp" id ="name"/>
+				</div>
+				<div class="wrap_row">
+					<label class="lab">Email</label>
+					<input type="text" class="inp" disabled id="email"/>
+				</div>
+				<div class="wrap_row">
+					<label class="lab">Phone</label>
+					<input type="text" class="inp" id="phone"/>
+				</div>
+				<div class="wrap_row">
+					<label class="lab">Address</label>
+					<input type="text" class="inp" id="address"/>
+				</div>
+				<div class="wrap_row">
+					<label class="lab" style="font-weight:bold">Change pass <input id="check_box" onchange="checkChangepass(this)" type="checkbox"></label>
+					<div id="wrap_pass_form" style="display: flex; flex-direction: column;">
+						<input type="password" class="inp" id="oldpass" placeholder="Enter password"/>
+						<input type="password" class="inp" id="pass" placeholder="New password"/>
+					</div>
+				</div>
+				<div class="wrap_row">
+					<button class="btn" onclick="applyChange()" id="change_btn">Change</button>
+					<button class="btn" onclick="deleteAccount()" id="del_btn">Delete Account</button>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+</body>
+</html>
